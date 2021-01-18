@@ -16,5 +16,6 @@ dir.map(file => {
         });
         console.timeEnd('Time Taken');
         console.groupEnd(name);
+        console.info(`\n -------------------- -------------------- -------------------- \n`);
     };
 });
